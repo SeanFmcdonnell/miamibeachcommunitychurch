@@ -77,7 +77,7 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video{
   margin: 0;
@@ -103,7 +103,7 @@ ol{
 
 q{quotes: none;}
 
-table, table td{ 
+table, table td{
   padding: 0;
   border: none;
   border-collapse: collapse;
@@ -111,10 +111,10 @@ table, table td{
 }
 
 img{
-  vertical-align: top; 
+  vertical-align: top;
   max-width: 100%;
 
-  -webkit-backface-visibility: hidden; 
+  -webkit-backface-visibility: hidden;
   -ms-transform: translateZ(0); /* IE 9 */
   -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
   transform: translateZ(0);
@@ -146,7 +146,7 @@ html,body{height: 100%;}
 
 /* -----------------------------------
 
-  2. Global 
+  2. Global
 
 ------------------------------------- */
 
@@ -178,12 +178,12 @@ body{
 
 ::-moz-selection{
   background: #565656;
-  color: #fff; 
+  color: #fff;
 }
 
 ::-o-selection{
   background: #565656;
-  color: #fff; 
+  color: #fff;
 }
 
 ::-ms-selection{
@@ -231,7 +231,7 @@ textarea::-moz-placeholder{
 }
 
 input:-ms-input-placeholder,
-textarea:-ms-input-placeholder{ 
+textarea:-ms-input-placeholder{
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   color: #999;
@@ -250,9 +250,9 @@ textarea:-ms-input-placeholder{
 }
 
 /* ------------------------------------------------------
-  
+
   3. General classes
-  
+
 ------------------------------------------------------ */
 
 .wrapper{overflow: hidden;}
@@ -552,7 +552,7 @@ a.link-text:hover{
   color: #b01933!important;
 }
 
-[class^="icon-"]:before, 
+[class^="icon-"]:before,
 [class*="icon-"]:before{
   width: auto;
   margin: 0;
@@ -853,7 +853,7 @@ a:hover .tooltip{
 }
 
 .header.style-2 .main-navigation > ul > li > a,
-.header.style-2 button.search-button, 
+.header.style-2 button.search-button,
 .header.style-2 .shop-cart .sc-cart-btn{
   color: #333;
 }
@@ -1037,7 +1037,7 @@ a:hover .tooltip{
   border-bottom: 1px solid transparent;
 }
 
-.searchform-wrap.opened, 
+.searchform-wrap.opened,
 .main-navigation > li:hover > .sub-menu-wrap{
   opacity: 1;
   visibility: visible;
@@ -1117,7 +1117,7 @@ a:hover .tooltip{
     height: 100%;
   }
 
-  .main-navigation > ul > li:hover > .sub-menu-wrap:not(.sub-menu-inner), 
+  .main-navigation > ul > li:hover > .sub-menu-wrap:not(.sub-menu-inner),
   .sub-menu-wrap ul li:hover .sub-menu-wrap.sub-menu-inner{
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
@@ -1132,7 +1132,7 @@ a:hover .tooltip{
       display: block;
       white-space: pre;
       position: relative;
-      font-size: 16px; 
+      font-size: 16px;
       line-height: 1em;
       letter-spacing: 0.5px;
       padding: 13px 40px 13px 28px;
@@ -1149,7 +1149,7 @@ a:hover .tooltip{
 
     .main-navigation > ul > li.has-megamenu{
       position: static;
-    } 
+    }
 
       .sub-menu-wrap.mega-menu{
         min-width: auto;
@@ -1201,7 +1201,7 @@ a:hover .tooltip{
 .header.style-4 .responsive-nav-button,
 .header.style-2 .responsive-nav-button{
   color: #333;
-} 
+}
 
 .responsive-nav-button:before{
   font-family: 'linearicons';
@@ -1239,7 +1239,7 @@ a:hover .tooltip{
   z-index: 999;
   border-radius: 3px;
   overflow: hidden;
-  
+
   -webkit-transition: all .4s ease;
   transition: all .4s ease;
 }
@@ -1597,9 +1597,9 @@ button.search-button:before{content: "\e922";}
   }
 
 /* ------------------------------------------------------
-    
+
     6. Content Elements
-    
+
 ------------------------------------------------------ */
 
 #content{
@@ -1840,8 +1840,8 @@ button.search-button:before{content: "\e922";}
     content: '\e93c';
   }
 
-.tp-bullet, 
-.tp-bullet.selected, 
+.tp-bullet,
+.tp-bullet.selected,
 .tp-bullet:hover{
     background: none;
     height: auto;
@@ -2232,7 +2232,7 @@ button.search-button:before{content: "\e922";}
     visibility: hidden;
     font-family: 'Linearicons';
     -webkit-animation-duration: .5s;
-    animation-duration: .5s;    
+    animation-duration: .5s;
   }
 
   .go-to-top.go-top-visible {
@@ -2364,7 +2364,7 @@ button.search-button:before{content: "\e922";}
       width: 100%;
       color: #999;
       border-radius: 2px;
-      height: 42px;
+      height: 55px;
       line-height: 42px;
       padding: 0 20px;
       font-size: 15px;
@@ -2402,7 +2402,7 @@ button.search-button:before{content: "\e922";}
       font-size: 18px;
       color: #777;
       margin-bottom: 7px;
-      display: block;   
+      display: block;
     }
 
     legend{
@@ -2765,7 +2765,7 @@ button.search-button:before{content: "\e922";}
 
   .contact-form .row:not(.col-no-space) > [class*="col"]{
     padding-bottom: 20px;
-  } 
+  }
 
   /*----------- Tables --------------*/
 
@@ -2835,7 +2835,7 @@ button.search-button:before{content: "\e922";}
   }
 
   .table-type-2 tr:last-child > th{
-    border-bottom: 1px solid #e0e0e0; 
+    border-bottom: 1px solid #e0e0e0;
   }
 
   /* --------------- wp-calendar-event ----------------*/
@@ -2869,7 +2869,7 @@ button.search-button:before{content: "\e922";}
     display: none;
   }
 
-  .tribe-events-bar .mad-custom-select .mad-selected-option, 
+  .tribe-events-bar .mad-custom-select .mad-selected-option,
   .tribe-events-bar .mad-custom-select .mad-options-list li{
     padding-left: 40px;
     padding-right: 20px;
@@ -2930,7 +2930,7 @@ button.search-button:before{content: "\e922";}
     .tribe-events-filters.show-filter .tribe-events-filters-content{
       display: block;
     }
-    
+
       .tribe-filter-control{
         margin: 0 -15px;
       }
@@ -3016,7 +3016,7 @@ button.search-button:before{content: "\e922";}
             font-size: 14px;
             line-height: 39px;
           }
- 
+
           .tribe-events-filter-checkboxes .mad-custom-select .mad-options-list{
             font-size: 15px;
             background: #fff;
@@ -3276,7 +3276,7 @@ button.search-button:before{content: "\e922";}
     content: "\e959";
   }
 
-  .custom-list > li > ul, 
+  .custom-list > li > ul,
   .custom-list > li > ol {
     margin-top: 13px;
   }
@@ -3739,7 +3739,7 @@ button.search-button:before{content: "\e922";}
     }
 
     .quantity input[type="text"] {
-      width: 130px; 
+      width: 130px;
       padding: 0 40px 0 20px;
       border: none;
       height: 56px;
@@ -3758,7 +3758,7 @@ button.search-button:before{content: "\e922";}
     overflow: hidden;
   }
 
-  .fb-page{ 
+  .fb-page{
     width: 100% !important;
     overflow: hidden;
   }
@@ -5568,7 +5568,7 @@ button.search-button:before{content: "\e922";}
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
     justify-content: center;
@@ -6197,7 +6197,7 @@ button.search-button:before{content: "\e922";}
   .event-box.isotope{
     margin: 0 -15px 0;
     overflow: hidden;
-    
+
   }
 
   .event-box.isotope > .item{
@@ -6397,7 +6397,7 @@ button.search-button:before{content: "\e922";}
 
     .event-box.style-2.grid-type .event-img:not(:last-child){
       margin-bottom: 26px;
-    } 
+    }
 
   .event-box.style-2 .event .event-title:not(:last-child),
   .event-box.style-3 .event .event-title:not(:last-child){
@@ -6555,7 +6555,7 @@ button.search-button:before{content: "\e922";}
   /* ------------------------------------------------------
 
       Comments
-      
+
   ------------------------------------------------------ */
 
   .comments-list{
@@ -7278,7 +7278,7 @@ button.search-button:before{content: "\e922";}
   }
 
   .product.single .product-meta a{
-    color: #333; 
+    color: #333;
   }
 
   .product.single .product-meta a:hover{
@@ -7397,7 +7397,7 @@ button.search-button:before{content: "\e922";}
     font-weight: bold;
   }
 
-  .checkbox-title input[type="radio"] + label::before, 
+  .checkbox-title input[type="radio"] + label::before,
   .checkbox-title input[type="checkbox"] + label::before{
       left: auto;
       right: 0;
